@@ -1,18 +1,11 @@
-<<<<<<< HEAD
-
-=======
 #create by Manager
->>>>>>> 61fd5c42044e2f84e54a6dfa07bf1ffc994e206e
 def pick_engineer()
   engineer_name = IO.readlines("engineers.txt")
   random = rand(engineer_name.size)
   return engineer_name[random]
 end
 
-<<<<<<< HEAD
-=======
 #create by featureB
->>>>>>> 61fd5c42044e2f84e54a6dfa07bf1ffc994e206e
 def pick_featureB(name)
   rn = name.split(" ")
   if rn.size > 1
